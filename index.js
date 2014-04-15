@@ -2,13 +2,13 @@
  * Module dependencies.
  */
 
-var isArray = require('isArray');
-var domify = require('domify');
-var each = require('each');
-var events = require('event');
-var getKeys = require('keys');
-var query = require('query');
-var trim = require('trim');
+var isArray = require('yields-isArray');
+var domify = require('component-domify');
+var each = require('component-each');
+var events = require('component-event');
+var getKeys = require('matthewp-keys');
+var query = require('component-query');
+var trim = require('component-trim');
 var slice = [].slice;
 
 /**

@@ -1,15 +1,29 @@
 {
-  "name": "dom-component",
-  "version": "0.9.0",
-  "repository": "component/dom",
+  "name": "component-dom",
   "description": "DOM traversal, manipulation and events aggregate library",
-  "license": "MIT",
-  "testling": {
-    "harness": "mocha",
-    "scripts": [
-      "dom.js",
-      "test/*.js"
-    ],
-    "browsers": ["chrome/22"]
-  }
+  "version": "1.0.5",
+  "keywords": [
+    "html",
+    "dom",
+    "ui",
+    "jquery"
+  ],
+  "dependencies": {
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-delegate": "git://github.com/npmcomponent/component-delegate.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-css": "git://github.com/npmcomponent/component-css.git",
+    "component-value": "git://github.com/npmcomponent/component-value.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git",
+    "component-matches-selector": "git://github.com/npmcomponent/component-matches-selector.git",
+    "yields-traverse": "git://github.com/npmcomponent/yields-traverse.git",
+    "component-trim": "git://github.com/npmcomponent/component-trim.git",
+    "yields-isArray": "git://github.com/npmcomponent/yields-isArray.git",
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git",
+    "matthewp-keys": "git://github.com/npmcomponent/matthewp-keys.git",
+    "matthewp-text": "git://github.com/npmcomponent/matthewp-text.git"
+  },
+  "license": "MIT"
 }
